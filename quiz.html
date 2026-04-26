@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF -8">
+<title >Quiz --- Jàng Afrig </title >
+</head>
+<body>
+<header >
+<h1>Jàng Afrig </h1>
+<p>Apprendre l'Afrique , un pays à la fois </p>
+</header >
+<nav>
+<a href="index.html">Accueil </a> |
+<a href="quiz.html">Jouer </a> |
+<a href="scores.html">Mes Scores </a> |
+<a href="apropos.html">À propos </a> |
+<a href="contact.html">contact</a>
+</nav>
+<main>
+<section >
+<h2>Avant de jouer </h2>
+<form>
+    
+<label for="nombre-questions">Nombre de questions :</label>
+<input 
+  type="number" 
+  id="nombre-questions" 
+  name="nombre-questions" 
+  min="5" 
+  max="20" 
+  value="10"
+>
+
+
+<fieldset>
+  <legend>Difficulté :</legend>
+
+  <label>
+    <input type="radio" name="difficulte" value="facile"> Facile
+  </label>
+
+  <label>
+    <input type="radio" name="difficulte" value="moyen"> Moyen
+  </label>
+
+  <label>
+    <input type="radio" name="difficulte" value="difficile"> Difficile
+  </label>
+</fieldset>
+<p>
+<label for="pseudo">Votre pseudo :</label >
+<input type="text" id="pseudo" name="pseudo"
+placeholder="Ex. Fatou" required >
+</p>
+
+<p>
+<label for="mode">Mode de jeu :</label >
+<select id="mode" name="mode" required >
+<option value="">-- Choisir un mode
+--</option >
+<option value="capitales">Capitales </option >
+<option value="drapeaux">Drapeaux </option >
+<option value="langues">Langues </option >
+<option value="voisins">Voisins </option >
+<option value="chrono">Chrono </option >
+</select >
+</p>
+
+<p>
+<button type="submit">Commencer le quiz </button >
+</p>
+</form>
+</section >
+</main>
+<footer >
+<p>
+    &copy; 2025--2026 Jàng Afrig --- L1 DUT1-Info,
+ESP/UCAD.</p>
+</footer >
+</body>
+</html>
