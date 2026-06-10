@@ -175,3 +175,5 @@ text-decoration: underline;
 footer a:hover {
 color: white;
 }
+
+.cachee { display: none; }
